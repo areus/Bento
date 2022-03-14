@@ -162,7 +162,7 @@ const CONFIG = {
       links: [
         {
           name: 'Skimfeed',
-          link: 'http://www.skimfeed.com',
+          link: 'https://skimfeed.com/',
         },
         {
           name: 'Linkedin',
