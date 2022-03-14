@@ -14,7 +14,7 @@ const CONFIG = {
   name: 'Aaron',
   imageBackground: false,
   openInNewTab: true,
-  twelveHourFormat: false,
+  twelveHourFormat: true,
 
   // Greetings
   greetingMorning: 'Good morning!',
@@ -27,13 +27,13 @@ const CONFIG = {
 
   // Weather
   weatherKey: 'InsertYourAPIKeyHere123456', // Write here your API Key
-  weatherIcons: 'OneDark', // 'Onedark', 'Nord', 'Dark', 'White'
+  weatherIcons: 'Nord', // 'Onedark', 'Nord', 'Dark', 'White'
   weatherUnit: 'F', // 'F', 'C'
   language: 'en', // More languages in https://openweathermap.org/current#multi
 
   trackLocation: true, // If false or an error occurs, the app will use the lat/lon below
-  defaultLatitude: '37.775',
-  defaultLongitude: '-122.419',
+  defaultLatitude: '39.529633',
+  defaultLongitude: '-119.813805',
 
   // Autochange
   autoChangeTheme: true,
@@ -84,7 +84,7 @@ const CONFIG = {
     {
       id: '6',
       name: 'LA Guide',
-      icon: 'game',
+      icon: 'gamepad',
       link: 'https://www.notion.so/areus/Lost-Ark-9cead8a0c46a44fb86d2235c2bd85ae9',
     },
   ],
