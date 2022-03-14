@@ -26,12 +26,12 @@ const CONFIG = {
   bentoLayout: 'bento', // 'bento', 'lists', 'buttons'
 
   // Weather
-  weatherKey: 'process.env.WEATHER_API', // Write here your API Key
+  weatherKey: process.env.WEATHER_API, // Write here your API Key
   weatherIcons: 'Nord', // 'Onedark', 'Nord', 'Dark', 'White'
   weatherUnit: 'F', // 'F', 'C'
   language: 'en', // More languages in https://openweathermap.org/current#multi
 
-  trackLocation: true, // If false or an error occurs, the app will use the lat/lon below
+  trackLocation: false, // If false or an error occurs, the app will use the lat/lon below
   defaultLatitude: '39.529633',
   defaultLongitude: '-119.813805',
 
