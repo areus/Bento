@@ -26,12 +26,12 @@ const CONFIG = {
   bentoLayout: 'bento', // 'bento', 'lists', 'buttons'
 
   // Weather
-  weatherKey: process.env.WEATHER_API, // Write here your API Key
+  weatherKey: 'process.env.WEATHER_API', // Write here your API Key
   weatherIcons: 'Nord', // 'Onedark', 'Nord', 'Dark', 'White'
   weatherUnit: 'F', // 'F', 'C'
   language: 'en', // More languages in https://openweathermap.org/current#multi
 
-  trackLocation: false, // If false or an error occurs, the app will use the lat/lon below
+  trackLocation: true, // If false or an error occurs, the app will use the lat/lon below
   defaultLatitude: '39.529633',
   defaultLongitude: '-119.813805',
 
@@ -105,7 +105,7 @@ const CONFIG = {
     {
       id: '3',
       name: 'bot',
-      icon: 'message-square',
+      icon: 'bot',
       link: 'https://discord.com/app',
     },
     {
@@ -135,16 +135,24 @@ const CONFIG = {
   // First Links Container
   firstlistsContainer: [
     {
-      icon: 'server',
+      icon: 'music',
       id: '1',
       links: [
         {
-          name: 'NAS',
-          link: 'http://192.168.116.199:5000',
+          name: 'Stompers',
+          link: 'https://open.spotify.com/playlist/5hYFMB6xdsbagnXUkUt0YJ?si=9271b1f0229f4604',
         },
         {
-          name: 'Shows',
-          link: 'https://media.local:8989',
+          name: 'Choruses',
+          link: 'https://open.spotify.com/playlist/0AALC1CVnMK8eX9jruYDiv?si=aabc0f1a099842d8',
+        },
+        {
+          name: 'Existential',
+          link: 'https://open.spotify.com/playlist/1A5KqZ5he0J7ycbPxvr8bO?si=4eb0716306fd448d',
+        },
+        {
+          name: 'Vibes',
+          link: 'https://open.spotify.com/playlist/0cBEr3chf0XL1buXSodD6u?si=8e91228feaed4b7d',
         },
       ],
     },
@@ -152,6 +160,10 @@ const CONFIG = {
       icon: 'coffee',
       id: '2',
       links: [
+        {
+          name: 'Skimfeed',
+          link: 'https://www.skimfeed.com',
+        },
         {
           name: 'Linkedin',
           link: 'https://www.linkedin.com',
@@ -161,8 +173,8 @@ const CONFIG = {
           link: 'https://www.dribbble.com',
         },
         {
-          name: 'Skimfeed',
-          link: 'https://www.skimfeed.com',
+          name: 'Lambgoat',
+          link: 'https://www.lambgoat.com',
         },
       ],
     },
@@ -171,24 +183,24 @@ const CONFIG = {
   // Second Links Container
   secondListsContainer: [
     {
-      icon: 'music',
+      icon: 'binary',
       id: '1',
       links: [
         {
-          name: '2022 Stompers',
-          link: 'https://open.spotify.com/playlist/5hYFMB6xdsbagnXUkUt0YJ?si=98253ed8cb60445f',
+          name: 'Spotify',
+          link: 'https://www.spotify.com',
         },
         {
-          name: 'Vibes',
-          link: 'https://open.spotify.com/playlist/0cBEr3chf0XL1buXSodD6u?si=9a3bd8d875764e7f',
+          name: 'Reddit',
+          link: 'https://www.reddit.com',
         },
         {
-          name: 'Catchy Choruses',
-          link: 'https://open.spotify.com/playlist/0AALC1CVnMK8eX9jruYDiv?si=00fa9822f1bf4f3d',
+          name: 'Hashnode',
+          link: 'https://www.hashnode.com',
         },
         {
-          name: 'Existential',
-          link: 'https://open.spotify.com/playlist/1A5KqZ5he0J7ycbPxvr8bO?si=d709472151304e69',
+          name: 'Pocket',
+          link: 'https://www.pocket.com',
         },
       ],
     },
