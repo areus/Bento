@@ -105,7 +105,7 @@ const CONFIG = {
     {
       id: '3',
       name: 'bot',
-      icon: 'bot',
+      icon: 'message-square',
       link: 'https://discord.com/app',
     },
     {
@@ -135,16 +135,16 @@ const CONFIG = {
   // First Links Container
   firstlistsContainer: [
     {
-      icon: 'music',
+      icon: 'server',
       id: '1',
       links: [
         {
-          name: 'Inspirational',
-          link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+          name: 'NAS',
+          link: 'http://192.168.116.199:5000',
         },
         {
-          name: 'Classic',
-          link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+          name: 'Shows',
+          link: 'media.local:8989',
         },
         {
           name: 'Oldies',
