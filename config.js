@@ -78,7 +78,7 @@ const CONFIG = {
     {
       id: '5',
       name: 'Inspiration',
-      icon: 'glasses',
+      icon: 'image',
       link: 'https://www.notion.so/areus/af7836bf52b744c694b2dee4f7134897?v=c0fd4239ac254b72acaf3177a4c075b3',
     },
     {
