@@ -11,7 +11,7 @@ const CONFIG = {
   // └─┘┴ ┴└─┘┴└─┘└─┘
 
   // General
-  name: 'John',
+  name: 'Aaron',
   imageBackground: false,
   openInNewTab: true,
   twelveHourFormat: false,
@@ -61,31 +61,31 @@ const CONFIG = {
       id: '2',
       name: 'Mail',
       icon: 'mail',
-      link: 'https://mail.protonmail.com/',
+      link: 'https://fastmail.com',
     },
     {
       id: '3',
-      name: 'Todoist',
+      name: 'Tasks',
       icon: 'trello',
-      link: 'https://todoist.com',
+      link: 'https://www.notion.so/areus/19f5507bf70c45c2bf7b09a8e3ce612b?v=aa9028be6b7d470e9aba3784b746b241',
     },
     {
       id: '4',
       name: 'Calendar',
       icon: 'calendar',
-      link: 'https://calendar.google.com/calendar/r',
+      link: 'https://www.fastmail.com/calendar/month/',
     },
     {
       id: '5',
-      name: 'Reddit',
+      name: 'Inspiration',
       icon: 'glasses',
-      link: 'https://reddit.com',
+      link: 'https://www.notion.so/areus/af7836bf52b744c694b2dee4f7134897?v=c0fd4239ac254b72acaf3177a4c075b3',
     },
     {
       id: '6',
-      name: 'Odysee',
-      icon: 'youtube',
-      link: 'https://odysee.com/',
+      name: 'LA Guide',
+      icon: 'game',
+      link: 'https://www.notion.so/areus/Lost-Ark-9cead8a0c46a44fb86d2235c2bd85ae9',
     },
   ],
 
