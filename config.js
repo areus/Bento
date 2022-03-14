@@ -165,12 +165,12 @@ const CONFIG = {
           link: 'https://skimfeed.com/',
         },
         {
-          name: 'Linkedin',
-          link: 'https://www.linkedin.com',
+          name: 'NAS',
+          link: 'http://192.168.116.199:5000/',
         },
         {
-          name: 'Dribbble',
-          link: 'https://www.dribbble.com',
+          name: 'Shows',
+          link: 'https://media.local:8989',
         },
         {
           name: 'Lambgoat',
