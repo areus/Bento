@@ -144,15 +144,7 @@ const CONFIG = {
         },
         {
           name: 'Shows',
-          link: 'media.local:8989',
-        },
-        {
-          name: 'Oldies',
-          link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
-        },
-        {
-          name: 'Rock',
-          link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+          link: 'https://media.local:8989',
         },
       ],
     },
@@ -172,10 +164,6 @@ const CONFIG = {
           name: 'Skimfeed',
           link: 'https://www.skimfeed.com',
         },
-        {
-          name: 'NAS',
-          link: 'http://192.168.116.199:5000',
-        },
       ],
     },
   ],
@@ -183,24 +171,24 @@ const CONFIG = {
   // Second Links Container
   secondListsContainer: [
     {
-      icon: 'binary',
+      icon: 'music',
       id: '1',
       links: [
         {
-          name: 'Spotify',
-          link: 'https://www.spotify.com',
+          name: '2022 Stompers',
+          link: 'https://open.spotify.com/playlist/5hYFMB6xdsbagnXUkUt0YJ?si=98253ed8cb60445f',
         },
         {
-          name: 'Reddit',
-          link: 'https://www.reddit.com',
+          name: 'Vibes',
+          link: 'https://open.spotify.com/playlist/0cBEr3chf0XL1buXSodD6u?si=9a3bd8d875764e7f',
         },
         {
-          name: 'Hashnode',
-          link: 'https://www.hashnode.com',
+          name: 'Catchy Choruses',
+          link: 'https://open.spotify.com/playlist/0AALC1CVnMK8eX9jruYDiv?si=00fa9822f1bf4f3d',
         },
         {
-          name: 'Pocket',
-          link: 'https://www.pocket.com',
+          name: 'Existential',
+          link: 'https://open.spotify.com/playlist/1A5KqZ5he0J7ycbPxvr8bO?si=d709472151304e69',
         },
       ],
     },
