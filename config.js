@@ -169,12 +169,12 @@ const CONFIG = {
           link: 'https://www.dribbble.com',
         },
         {
-          name: 'Trello',
-          link: 'https://www.trello.com',
+          name: 'Skimfeed',
+          link: 'https://www.skimfeed.com',
         },
         {
-          name: 'Slack',
-          link: 'https://www.slack.com',
+          name: 'NAS',
+          link: 'http://192.168.116.199:5000',
         },
       ],
     },
