@@ -13,7 +13,7 @@ const CONFIG = {
   // General
   name: 'Aaron',
   imageBackground: false,
-  openInNewTab: true,
+  openInNewTab: false,
   twelveHourFormat: true,
 
   // Greetings
